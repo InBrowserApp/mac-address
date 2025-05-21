@@ -1,0 +1,1186 @@
+import type { MACPrefixEntry } from "./types";
+
+export default [
+  {
+    "registry": "CID",
+    "assignment": "EA2701",
+    "organizationName": "ACCE Technology Corp.",
+    "organizationAddress": "6F.-2, No. 38, Beida Rd., Hsinchu City  TW 300024"
+  },
+  {
+    "registry": "CID",
+    "assignment": "4A688D",
+    "organizationName": "Shenzhen TCL New Technology Co., Ltd",
+    "organizationAddress": "B area,10 Floor, TCL Multimedia Building, TCL International E city, #1001 Zhongshan Park Road, Nanshan District Shenzhen Guangdong CN 518052"
+  },
+  {
+    "registry": "CID",
+    "assignment": "3A0E75",
+    "organizationName": "KEVCOM LLC",
+    "organizationAddress": "12 Lark Street Greenwich NY US 12834"
+  },
+  {
+    "registry": "CID",
+    "assignment": "4A5AA9",
+    "organizationName": "GoCodeIT Inc",
+    "organizationAddress": "8171 Yonge StreetSuite 255 Thornhill Ontario CA L3T2C6"
+  },
+  {
+    "registry": "CID",
+    "assignment": "AA146B",
+    "organizationName": "IronWiFi",
+    "organizationAddress": "5245 Brosche Rd Orlando FL US 32807"
+  },
+  {
+    "registry": "CID",
+    "assignment": "BA6791",
+    "organizationName": "Kandou Bus SA",
+    "organizationAddress": "EPFL Innovation Park Lausanne Vaud CH 1015"
+  },
+  {
+    "registry": "CID",
+    "assignment": "DA1E56",
+    "organizationName": "OSNexus",
+    "organizationAddress": "11711 SE 8th Street, Suite 305 Bellevue WA US 98005"
+  },
+  {
+    "registry": "CID",
+    "assignment": "AAF019",
+    "organizationName": "TransferJet Consortium Incorporated Association",
+    "organizationAddress": "1-7-1 Konan Minato-ku Tokyo JP 108-0075"
+  },
+  {
+    "registry": "CID",
+    "assignment": "DA7D2E",
+    "organizationName": "Delta Computers LLC.",
+    "organizationAddress": "Office 22/10, room part 22, room IV, floor 3, 41A, 3-rd Parkovaya str. Moscow  RU 105425"
+  },
+  {
+    "registry": "CID",
+    "assignment": "0A8E62",
+    "organizationName": "Delta Solutions LLC",
+    "organizationAddress": "Kolhoznaya str., 8A, Room 20, 2nd Floor Lubertsy Lubertsy City District, Moscow Region RU 140002"
+  },
+  {
+    "registry": "CID",
+    "assignment": "CA045A",
+    "organizationName": "Ossia Inc",
+    "organizationAddress": "2683 151st Place NE Redmond WA US 98052"
+  },
+  {
+    "registry": "CID",
+    "assignment": "3A5A27",
+    "organizationName": "Shenzhen Longsys Electronics Co.,Ltd.",
+    "organizationAddress": "8F, Building 1, Financial Base, No.8 Kefa Road, High-Tech Park, Shenzhen, China Shenzhen Guangdong CN 518000"
+  },
+  {
+    "registry": "CID",
+    "assignment": "6A9DA4",
+    "organizationName": "Global Reach Technology",
+    "organizationAddress": "Craven House London  GB WC1V 7DN"
+  },
+  {
+    "registry": "CID",
+    "assignment": "3A78CA",
+    "organizationName": "SoundTalks NV",
+    "organizationAddress": "Ambachtenlaan 1 Heverlee  BE 3001"
+  },
+  {
+    "registry": "CID",
+    "assignment": "6A5C35",
+    "organizationName": "Secrétariat général de la défense et de la sécurité nationale",
+    "organizationAddress": "51 boulevard de la Tour-Maubourg PARIS  FR 75700"
+  },
+  {
+    "registry": "CID",
+    "assignment": "3AF521",
+    "organizationName": "Single Digits",
+    "organizationAddress": "4 Bedford Farms Drive, Suite 210 Bedford NH US 03110"
+  },
+  {
+    "registry": "CID",
+    "assignment": "4AC03F",
+    "organizationName": "WUHAN HIKSTORAGE TECHNOLOGY CO.,LTD",
+    "organizationAddress": "Rm.01, 21/F, F4 Building, 5th Phase-NO.1 Software Park, Guanshan 1 Rd, East Lake  Development Zone, Wuhan, China(430040) Wuhan Hubei CN 430040"
+  },
+  {
+    "registry": "CID",
+    "assignment": "6A4065",
+    "organizationName": "Open Connectivity Foundation",
+    "organizationAddress": "3855 SW 153rd Dr Beaverton OR US 97003"
+  },
+  {
+    "registry": "CID",
+    "assignment": "DAA119",
+    "organizationName": "Google, Inc.",
+    "organizationAddress": "1600 Amphitheatre Parkway Mountain View CA US 94043"
+  },
+  {
+    "registry": "CID",
+    "assignment": "AA38C7",
+    "organizationName": "Kaloom inc",
+    "organizationAddress": "355 Peel street, suite 403 Montreal Quebec CA H3C 2G9"
+  },
+  {
+    "registry": "CID",
+    "assignment": "CA30BF",
+    "organizationName": "IEEE 802.1 Chair",
+    "organizationAddress": " c/o RAC Administrator , IEEE Piscataway NJ US 08554"
+  },
+  {
+    "registry": "CID",
+    "assignment": "FA1619",
+    "organizationName": "trendytech",
+    "organizationAddress": "No.303 Hanzhongmen Street, 6th Floor Block  Nanjing  CN 210036"
+  },
+  {
+    "registry": "CID",
+    "assignment": "FA610E",
+    "organizationName": "Laboratory for Computational Sensing and Robotics, Johns Hopkins University",
+    "organizationAddress": "3400 North Charles Street Baltimore MD US 21218"
+  },
+  {
+    "registry": "CID",
+    "assignment": "FA63E1",
+    "organizationName": "Samsung Electronics (UK) Ltd",
+    "organizationAddress": "Communications House, South Street Staines-Upon-Thames Middlesex GB TW18 4QE"
+  },
+  {
+    "registry": "CID",
+    "assignment": "8A34BC",
+    "organizationName": "Fiberworks AS",
+    "organizationAddress": "Ryensvingen 15 Oslo  NO 0680"
+  },
+  {
+    "registry": "CID",
+    "assignment": "7A4BA4",
+    "organizationName": "Innostor Technology Corporation",
+    "organizationAddress": "2F., No. 8, Ln32, Xianzheng 5th St., Jhubei City, Hsinchu Country 30268, Taiwan Jhubei Hsinchu TW 30268"
+  },
+  {
+    "registry": "CID",
+    "assignment": "DAFF6B",
+    "organizationName": "Team Precision Public Company Limited",
+    "organizationAddress": "198 Moo 13 Suwansorn Rd., Dong-Khee-Lek, Prachinburi Muang TH 25000"
+  },
+  {
+    "registry": "CID",
+    "assignment": "9A564B",
+    "organizationName": "Cubix Corporation",
+    "organizationAddress": "2800 Lockheed Way Carson City Nevada US 89706"
+  },
+  {
+    "registry": "CID",
+    "assignment": "EA34B4",
+    "organizationName": "ThinkRF Inc.",
+    "organizationAddress": "390 March Rd., Suite 110 Ottawa Ontario CA K2K 0G7"
+  },
+  {
+    "registry": "CID",
+    "assignment": "2A9FEB",
+    "organizationName": "AVnu Alliance",
+    "organizationAddress": "3855 SW 153rd Drive Beaverton  US 97003"
+  },
+  {
+    "registry": "CID",
+    "assignment": "5A73CF",
+    "organizationName": "Gogo Business Aviation",
+    "organizationAddress": "105 Edgeview Dr., Suite 300 Broomfield CO US 80021"
+  },
+  {
+    "registry": "CID",
+    "assignment": "0AE91B",
+    "organizationName": "PADL Software Pty Ltd",
+    "organizationAddress": "PO Box 59 Central Park VIC AU 3145"
+  },
+  {
+    "registry": "CID",
+    "assignment": "7A8DD1",
+    "organizationName": "TePS'EG",
+    "organizationAddress": "31-14, Hangang-daero 15-gil, Yongsan-gu Seoul  KR 04379"
+  },
+  {
+    "registry": "CID",
+    "assignment": "8A0775",
+    "organizationName": "HORYS TECHNOLOGIES LLC",
+    "organizationAddress": "8 the Green suite R Dover  US 19901"
+  },
+  {
+    "registry": "CID",
+    "assignment": "2ADBD7",
+    "organizationName": "Vesper Technologies",
+    "organizationAddress": "Unit 5 Rugby Park, Bletchley Road Stockport Cheshire GB SK4 3EJ"
+  },
+  {
+    "registry": "CID",
+    "assignment": "3AC6CF",
+    "organizationName": "Parakey AB",
+    "organizationAddress": "Sankt Eriksgatan 6 Göteborg  SE 41666"
+  },
+  {
+    "registry": "CID",
+    "assignment": "2A1597",
+    "organizationName": "COTSWORKS",
+    "organizationAddress": "749 Miner Road Highland Heights OH US 44143"
+  },
+  {
+    "registry": "CID",
+    "assignment": "FA7ACB",
+    "organizationName": "Ultra Ethernet Consortium",
+    "organizationAddress": "c/o The Linux Foundation, 548 Market St. PMB 57274 San Francisco CA US 94104-5401"
+  },
+  {
+    "registry": "CID",
+    "assignment": "2A7F76",
+    "organizationName": "Wireless Broadband Alliance, Inc",
+    "organizationAddress": "5000 Executive Parkway, Suite 302 San Ramon CA SG 94583"
+  },
+  {
+    "registry": "CID",
+    "assignment": "CAC276",
+    "organizationName": "Saab Seaeye Ltd",
+    "organizationAddress": "20 Brunel Way Fareham Hampshire GB PO15 5SD"
+  },
+  {
+    "registry": "CID",
+    "assignment": "DAE6D7",
+    "organizationName": "NVM Express, Inc.",
+    "organizationAddress": "3855 SW 153rd Drive Beaverton OR US 97003"
+  },
+  {
+    "registry": "CID",
+    "assignment": "4AED1D",
+    "organizationName": "Astera Labs Inc",
+    "organizationAddress": "2901 Tasman Dr, #204 Santa Clara CA US 95054"
+  },
+  {
+    "registry": "CID",
+    "assignment": "7A3F8C",
+    "organizationName": "Seagate Technology Thailand Ltd.",
+    "organizationAddress": "1627 Moo 7, Teparuk Road, T. Teparuk, A.Muang Samutprakarn  TH 10270"
+  },
+  {
+    "registry": "CID",
+    "assignment": "DA9D49",
+    "organizationName": "Calix Inc.",
+    "organizationAddress": "2777 Orchard Pkwy San Jose CA US 95131"
+  },
+  {
+    "registry": "CID",
+    "assignment": "4A6704",
+    "organizationName": "Reliable Robotics Corporation",
+    "organizationAddress": "950 N Rengstorff AVE STE E Mountain View CA US 94043"
+  },
+  {
+    "registry": "CID",
+    "assignment": "4A1540",
+    "organizationName": "sas de la Halle aux Fours",
+    "organizationAddress": "Avenue de la Verrerie, VIANNE FRANCE MÉTROPOLITAINE FR 47230"
+  },
+  {
+    "registry": "CID",
+    "assignment": "8AD85E",
+    "organizationName": "GigaIO Networks, Inc.",
+    "organizationAddress": "5924 Balfour Ct., Suite 101 Carlsbad CA US 92008"
+  },
+  {
+    "registry": "CID",
+    "assignment": "AADC47",
+    "organizationName": "Cachengo, Inc.",
+    "organizationAddress": "9575 Hwy 22 Huntingdon TN US 38344"
+  },
+  {
+    "registry": "CID",
+    "assignment": "0A361C",
+    "organizationName": "Smardii",
+    "organizationAddress": "1221 Brickell Avenue, Suite 900 Miami FL US 33131"
+  },
+  {
+    "registry": "CID",
+    "assignment": "EA2ADB",
+    "organizationName": "Labs Network Industrie 4. 0 e.V.",
+    "organizationAddress": "Ernst-Reuter-Platz 7 Berlin  DE 10587"
+  },
+  {
+    "registry": "CID",
+    "assignment": "1ABBFB",
+    "organizationName": "UHD Alliance",
+    "organizationAddress": "3855 SW 153rd Drive Beaverton OR US 97003"
+  },
+  {
+    "registry": "CID",
+    "assignment": "EA115D",
+    "organizationName": "AUTOVISION TECHNOLOGY INC.",
+    "organizationAddress": "NO. 2-3, INDUSTRY EAST ROAD 2, SCIENCE PARK, HSINCHU  TW 30075"
+  },
+  {
+    "registry": "CID",
+    "assignment": "FAD988",
+    "organizationName": "Momentum Data Systems",
+    "organizationAddress": "5432 Bolsa Ave Unit B Huntington Beach CA US 92649"
+  },
+  {
+    "registry": "CID",
+    "assignment": "BA4DEA",
+    "organizationName": "Environexus",
+    "organizationAddress": "50 Ricketts Road Mount Waverley VIC AU 3149"
+  },
+  {
+    "registry": "CID",
+    "assignment": "EAB89B",
+    "organizationName": "Thread Group, Inc.",
+    "organizationAddress": "2400 Camino Ramon, Ste 375 San Ramon CA US 94583"
+  },
+  {
+    "registry": "CID",
+    "assignment": "7A84F0",
+    "organizationName": "McDowell Signal Processing, LLC (dba McDSP)",
+    "organizationAddress": "2083 Old Middlefield Way #204 Mountain View CA US 94043"
+  },
+  {
+    "registry": "CID",
+    "assignment": "BAF21C",
+    "organizationName": "ISO/TC22/SC31",
+    "organizationAddress": "Behrenstr. 35 Berlin Berlin DE 10117"
+  },
+  {
+    "registry": "CID",
+    "assignment": "DA0D38",
+    "organizationName": "Farpointe Data, Inc.",
+    "organizationAddress": "1376 Borregas Ave  Sunnyvale CA US 94089"
+  },
+  {
+    "registry": "CID",
+    "assignment": "DAC87D",
+    "organizationName": "SE Development AB",
+    "organizationAddress": "Box 2096 Karlstad  SE 650 02"
+  },
+  {
+    "registry": "CID",
+    "assignment": "0AE471",
+    "organizationName": "Caterpillar Inc.",
+    "organizationAddress": "P.O. Box 610 Mossville IL US 61552-0610"
+  },
+  {
+    "registry": "CID",
+    "assignment": "5ACBD3",
+    "organizationName": "Simaudio Ltd",
+    "organizationAddress": "1345 rue Newton Boucherville Quebec CA J4B 5H2"
+  },
+  {
+    "registry": "CID",
+    "assignment": "FA2EE9",
+    "organizationName": "OCA Alliance, Inc.",
+    "organizationAddress": "23117 39th Ave SE Bothell WA US 98021"
+  },
+  {
+    "registry": "CID",
+    "assignment": "3AA3F8",
+    "organizationName": "IEEE 802.1 Chair",
+    "organizationAddress": " c/o RAC Administrator , IEEE Piscataway NJ US 08554"
+  },
+  {
+    "registry": "CID",
+    "assignment": "FA94F1",
+    "organizationName": "IEEE 802.1 Chair",
+    "organizationAddress": " c/o RAC Administrator , IEEE Piscataway NJ US 08554"
+  },
+  {
+    "registry": "CID",
+    "assignment": "3A0292",
+    "organizationName": "Video Electronics Standards Association",
+    "organizationAddress": "1754 Technology Dr., Suite 238 San Jose CA US 95110"
+  },
+  {
+    "registry": "CID",
+    "assignment": "FAE51A",
+    "organizationName": "RSAE Labs Inc",
+    "organizationAddress": "400 E 16th St Panama City FL US 32405"
+  },
+  {
+    "registry": "CID",
+    "assignment": "DA28EC",
+    "organizationName": "HG Genuine",
+    "organizationAddress": "HUST Science & Technology Park, East Lake High-Tech Development Zone Wuhan Hubei CN 430223"
+  },
+  {
+    "registry": "CID",
+    "assignment": "4A191B",
+    "organizationName": "ZigBee Alliance",
+    "organizationAddress": "508 Second Street, Suite 206 Davis CA US 95626"
+  },
+  {
+    "registry": "CID",
+    "assignment": "8A00B0",
+    "organizationName": "Eoptolink Technology Inc. Ltd,",
+    "organizationAddress": "No.127 West Wulian Street Chengdu China/Sichuan CN 610213"
+  },
+  {
+    "registry": "CID",
+    "assignment": "3ABA37",
+    "organizationName": "Cirrent",
+    "organizationAddress": "1810 Barroilhet Burlingame CA US 94010"
+  },
+  {
+    "registry": "CID",
+    "assignment": "9A1B22",
+    "organizationName": "InfoCore Co.,Ltd.",
+    "organizationAddress": "12th Floor,   No.1038 International Entrepreneurship Center Hangzhou Zhejiang CN 311202"
+  },
+  {
+    "registry": "CID",
+    "assignment": "AA0F85",
+    "organizationName": "Yamaichi Electronics",
+    "organizationAddress": "475 Holger Way San Jose CA US 95134"
+  },
+  {
+    "registry": "CID",
+    "assignment": "0A8736",
+    "organizationName": "IEEE 1901 Working Group",
+    "organizationAddress": "Progilon, WTC Business Center Grenoble Rhone Alpes FR F-38000"
+  },
+  {
+    "registry": "CID",
+    "assignment": "9AD263",
+    "organizationName": "FirmTek, LLC",
+    "organizationAddress": "29300 Kohoutek Way Union City California US 94587"
+  },
+  {
+    "registry": "CID",
+    "assignment": "2AFD6A",
+    "organizationName": "Charter Communications",
+    "organizationAddress": "6399 S. Fiddler's Green Circle Greenwood Village CO US 80111"
+  },
+  {
+    "registry": "CID",
+    "assignment": "7AF955",
+    "organizationName": "Relay, Inc.",
+    "organizationAddress": "4200 Six Forks Rd Suite 1800 Raleigh NC US 27609"
+  },
+  {
+    "registry": "CID",
+    "assignment": "0A35F2",
+    "organizationName": "Integrated Technical Vision Ltd",
+    "organizationAddress": "Mykoly Hrinchenka str. 2/1 Kyiv Kyiv UA 03038"
+  },
+  {
+    "registry": "CID",
+    "assignment": "0AAB8C",
+    "organizationName": "Midwest Microwave Solutions Inc.",
+    "organizationAddress": "2000 Progress Drive Hiawatha IA US 52233"
+  },
+  {
+    "registry": "CID",
+    "assignment": "CAFAE6",
+    "organizationName": "Tianjin Ronghui microelectronics Technology Co., Ltd.",
+    "organizationAddress": "601-2, Building 1, Science and Innovation Service Center, Intersection of Xuefu Middle Road and Chuangyuan Road, Jingwu Town, Xiqing District, Tianjin (Tiankai Xiqing Park) Tianjin Tianjin CN 300384"
+  },
+  {
+    "registry": "CID",
+    "assignment": "EA8F96",
+    "organizationName": "Proficium, LLC",
+    "organizationAddress": "1624 Pacific St Union City CA US 94587"
+  },
+  {
+    "registry": "CID",
+    "assignment": "3A1EC0",
+    "organizationName": "GENESIS",
+    "organizationAddress": "1325 Capital Circle Lawrenceville GA US 30043"
+  },
+  {
+    "registry": "CID",
+    "assignment": "BA2DFC",
+    "organizationName": "LINKWING(DONGGUAN)INTELLIGENT ELECTRONICS CO.,LTD",
+    "organizationAddress": "ROOM 101, BUILDING 5, NO.3 XIN CHENG ROAD, SONGSHANHU PARK, DONGGUAN CITY, GUANDONG PROVINCE, CN DONGGUAN GUANGDONG CN 523808"
+  },
+  {
+    "registry": "CID",
+    "assignment": "CA083C",
+    "organizationName": "Western Digital Technologies, Inc.",
+    "organizationAddress": "5601 Great Oaks Parkway San Jose CA US 95119-1003"
+  },
+  {
+    "registry": "CID",
+    "assignment": "BAA2D0",
+    "organizationName": "Wireless Broadband Alliance, Inc",
+    "organizationAddress": "5000 Executive Parkway, Suite 302 San Ramon CA SG 94583"
+  },
+  {
+    "registry": "CID",
+    "assignment": "8A852E",
+    "organizationName": "Kampr Systems",
+    "organizationAddress": "2047 Kings Lane San Mateo CA US 94402"
+  },
+  {
+    "registry": "CID",
+    "assignment": "FA00E7",
+    "organizationName": "Quantum Machines ltd",
+    "organizationAddress": "Hamasger 35 Tel Aviv  IL 6721407"
+  },
+  {
+    "registry": "CID",
+    "assignment": "6A71E6",
+    "organizationName": "FuelCloud",
+    "organizationAddress": "124 SW Dennis Ave. Hillsboro OR US 97123"
+  },
+  {
+    "registry": "CID",
+    "assignment": "FA0BBC",
+    "organizationName": "CEN",
+    "organizationAddress": "Rue de la Science 23 Brussels  BE 1040"
+  },
+  {
+    "registry": "CID",
+    "assignment": "8AD20F",
+    "organizationName": "Pro Optix AB",
+    "organizationAddress": "Vikdalsvägen 50 Nacka Strand  SE 13152"
+  },
+  {
+    "registry": "CID",
+    "assignment": "CA3EA6",
+    "organizationName": "Syng, Inc.",
+    "organizationAddress": "120 Mildred Ave. Venice CA US 90291"
+  },
+  {
+    "registry": "CID",
+    "assignment": "7A384E",
+    "organizationName": "PROFIBUS Nutzerorganisation e.V.",
+    "organizationAddress": "Haid-und-Neu-Straße 7 Karlsruhe Baden-Württemberg DE 76131"
+  },
+  {
+    "registry": "CID",
+    "assignment": "3A765D",
+    "organizationName": "NewCoSemi(Beijing) Technology Co., Ltd",
+    "organizationAddress": "Room 802, Floor 8, Building 8, Four District, East Tower, Wangjing, Chaoyang Beijing  CN 100102"
+  },
+  {
+    "registry": "CID",
+    "assignment": "EA1ED0",
+    "organizationName": "ZIGPOS GmbH",
+    "organizationAddress": "Räcknitzhöhe 35a Dresden Saxony DE 01217"
+  },
+  {
+    "registry": "CID",
+    "assignment": "0AD9C4",
+    "organizationName": "Craft Designs, Inc",
+    "organizationAddress": "700 Boulevard South Suite 501 HUNTSVILLE AL US 35802"
+  },
+  {
+    "registry": "CID",
+    "assignment": "2A0BB8",
+    "organizationName": "xFusion Digital Technologies Co., Limited",
+    "organizationAddress": "9th Floor, Building 1, Zensun Boya Square, Longzihu Wisdom Island, Zhengdong New District Zhengzhou Henan CN 450000"
+  },
+  {
+    "registry": "CID",
+    "assignment": "7A4BF3",
+    "organizationName": "DILON TECHNOLOGIES",
+    "organizationAddress": "12050 JEFFERSON AVENUE, Suite 340 NEWPORT NEWS VA US 23606"
+  },
+  {
+    "registry": "CID",
+    "assignment": "7A15EC",
+    "organizationName": "Yatomi Techology(ZheJiang) Co.,Ltd",
+    "organizationAddress": "No8 FuYuan Road, YaoZhuang Town, JiaShan County YaoZhuang ZheJiang CN 314117"
+  },
+  {
+    "registry": "CID",
+    "assignment": "6A8EAF",
+    "organizationName": "Waoo",
+    "organizationAddress": "True Møllevej 9 Tilst Aarhus Municipallity DK 8381"
+  },
+  {
+    "registry": "CID",
+    "assignment": "4AE03F",
+    "organizationName": "Chengdu Superxon communication Technology Co. Ltd.",
+    "organizationAddress": "No.666, Shaojia Street, Shuangliu District Chengdu Sichuan CN 610225"
+  },
+  {
+    "registry": "CID",
+    "assignment": "5A18FF",
+    "organizationName": "FiRa Consortium",
+    "organizationAddress": "3855 SW 153RD Drive Beaverton OR US 97003"
+  },
+  {
+    "registry": "CID",
+    "assignment": "EABC04",
+    "organizationName": "G3-PLC Alliance",
+    "organizationAddress": "34 place des Corolles Paris PARIS LA DEFENSE CEDEX  FR 92079"
+  },
+  {
+    "registry": "CID",
+    "assignment": "3A3541",
+    "organizationName": "Raspberry Pi (Trading) Ltd",
+    "organizationAddress": "Maurice Wilkes Building, St Johns Innovation Park Cambridge Cambridgeshire GB CB4 0DS"
+  },
+  {
+    "registry": "CID",
+    "assignment": "BAC485",
+    "organizationName": "Fraunhofer IIS",
+    "organizationAddress": "Am Wolfsmantel 33 Erlangen Bayern DE 91058"
+  },
+  {
+    "registry": "CID",
+    "assignment": "FABA85",
+    "organizationName": "APAT Optoelectronics Components Co., Ltd.",
+    "organizationAddress": "2-1503, COFCO Biz Park,Liuxian 2nd Rd., Baoan District, Shenzhen Shenzhen  CN 518101"
+  },
+  {
+    "registry": "CID",
+    "assignment": "8ACBA4",
+    "organizationName": "Resideo",
+    "organizationAddress": "2 Corporate Center Dr. Melville NY US 11747"
+  },
+  {
+    "registry": "CID",
+    "assignment": "6AB6F2",
+    "organizationName": "Eli Technology Inc",
+    "organizationAddress": "380 Bedford Hwy, Suite 307 Bedford NS CA  B3M 2L4"
+  },
+  {
+    "registry": "CID",
+    "assignment": "FAEB6E",
+    "organizationName": "xRAN.org",
+    "organizationAddress": "291 Lambert Ave. Palo Alto CA US 94306"
+  },
+  {
+    "registry": "CID",
+    "assignment": "4A5A6F",
+    "organizationName": "Applied Materials",
+    "organizationAddress": "3050 Bowers Avenue Santa Clara CA US 95054"
+  },
+  {
+    "registry": "CID",
+    "assignment": "EA6076",
+    "organizationName": "CloudSimple, Inc.",
+    "organizationAddress": "2755 Great America Way, Suite 101 Santa Clara CA US 95054"
+  },
+  {
+    "registry": "CID",
+    "assignment": "6A0E20",
+    "organizationName": "GeoFrenzy, Inc",
+    "organizationAddress": "39 Main Street Tiburon CA US 94920"
+  },
+  {
+    "registry": "CID",
+    "assignment": "BA55EC",
+    "organizationName": "IEEE 802.15",
+    "organizationAddress": "445 Hoes Lane  Piscataway NJ US 08854-4141"
+  },
+  {
+    "registry": "CID",
+    "assignment": "BA3054",
+    "organizationName": "George Wilson Industries Ltd",
+    "organizationAddress": "Barlow Road, Aldermans Green Industrial Estate Coventry West Midlands GB CV2 2LD"
+  },
+  {
+    "registry": "CID",
+    "assignment": "CA125C",
+    "organizationName": "Microsoft Corporation",
+    "organizationAddress": "One Microsoft Way Redmond null US 98052-6399"
+  },
+  {
+    "registry": "CID",
+    "assignment": "FA1466",
+    "organizationName": "Allegion PLC",
+    "organizationAddress": "500 Golden Ridge Rd Ste 160 Golden CO US 80401-9553"
+  },
+  {
+    "registry": "CID",
+    "assignment": "EAE0D9",
+    "organizationName": "Berk-tek LLC",
+    "organizationAddress": "132 white oak rd new holland PA US 17557"
+  },
+  {
+    "registry": "CID",
+    "assignment": "1A75FB",
+    "organizationName": "AUTOSAR",
+    "organizationAddress": "c/o Altran GmbH & Co. KG Munich  DE 80636"
+  },
+  {
+    "registry": "CID",
+    "assignment": "CAE505",
+    "organizationName": "Mobilitie",
+    "organizationAddress": "2220 University Dr Newport Beach  US 92660"
+  },
+  {
+    "registry": "CID",
+    "assignment": "FA556F",
+    "organizationName": "SymbolicIO",
+    "organizationAddress": "379 Thornall Edison NJ US 08837"
+  },
+  {
+    "registry": "CID",
+    "assignment": "BA03C6",
+    "organizationName": "Schüco International KG",
+    "organizationAddress": "Karolinenstr. 1 - 15 Bielefeld  DE 33609"
+  },
+  {
+    "registry": "CID",
+    "assignment": "EADA6E",
+    "organizationName": "FUJIFILM Recording Media GmbH",
+    "organizationAddress": "Fujistraße 1 Kleve  DE 47533"
+  },
+  {
+    "registry": "CID",
+    "assignment": "0AF99D",
+    "organizationName": "Fitipower Integrated Technology",
+    "organizationAddress": "3 Floor, No.6-8, Duxing Rd.,Hsinchu Science-Park Hsinchu  TW 30078"
+  },
+  {
+    "registry": "CID",
+    "assignment": "5A03BA",
+    "organizationName": "Wireless Broadband Alliance, Inc",
+    "organizationAddress": "5000 Executive Parkway, Suite 302 San Ramon CA SG 94583"
+  },
+  {
+    "registry": "CID",
+    "assignment": "DAC451",
+    "organizationName": "Takaratomy",
+    "organizationAddress": "7-9-10 Tateishi Katsushika-ku Tokyo JP 124-8511"
+  },
+  {
+    "registry": "CID",
+    "assignment": "BAC8C4",
+    "organizationName": "Transponder & Reader Engineered Systems, Inc",
+    "organizationAddress": "9651 Chalma Avenue  Baton Rouge LA US 70814"
+  },
+  {
+    "registry": "CID",
+    "assignment": "CA7DDD",
+    "organizationName": "EmOne (Thailand) Co.,Ltd.",
+    "organizationAddress": "39/1 Soi.Sangkhom Songkhro 12 Lat Phrao Bangkok TH 10230"
+  },
+  {
+    "registry": "CID",
+    "assignment": "3A796E",
+    "organizationName": "LX Semicon co.,Ltd.",
+    "organizationAddress": "38, Baumoe-ro, Seocho-gu Seoul  KR 06763"
+  },
+  {
+    "registry": "CID",
+    "assignment": "6A621E",
+    "organizationName": "DIFI Consortium",
+    "organizationAddress": "445 Hoes Lane Piscataway NJ US 08854"
+  },
+  {
+    "registry": "CID",
+    "assignment": "BA6312",
+    "organizationName": "IDTECK",
+    "organizationAddress": "4F, 61, Samjak-ro 171 beon-gil Bucheon-si, Gyeonggi-do 14453 KR 07573"
+  },
+  {
+    "registry": "CID",
+    "assignment": "4AADCE",
+    "organizationName": "CODAN ARGUS AG",
+    "organizationAddress": "Oberneuhofstrasse 10 Baar Zug CH 6340"
+  },
+  {
+    "registry": "CID",
+    "assignment": "8A4F8B",
+    "organizationName": "Irdeto",
+    "organizationAddress": "Taurus Avenue 105 Hoofddorp Noord Holland NL 2132LS"
+  },
+  {
+    "registry": "CID",
+    "assignment": "7A35EA",
+    "organizationName": "SHARP Corporation",
+    "organizationAddress": "1 Takumi-cho, Sakai-ku Sakai City Osaka JP 590-8522"
+  },
+  {
+    "registry": "CID",
+    "assignment": "8A94AD",
+    "organizationName": "Nexgen A/S",
+    "organizationAddress": "Tvinggårdsvej 1 Skuderløse Haslev  DK 4690"
+  },
+  {
+    "registry": "CID",
+    "assignment": "3A72C2",
+    "organizationName": "HUAWEI TECHNOLOGIES CO.,LTD",
+    "organizationAddress": "No.2 Xin Cheng Road, Room R6,Songshan Lake Technology Park Dongguan  CN 523808"
+  },
+  {
+    "registry": "CID",
+    "assignment": "2AA139",
+    "organizationName": "POINTGUARD, LLC",
+    "organizationAddress": "134 W Malvern Ave Salt Lake City UT US 84115"
+  },
+  {
+    "registry": "CID",
+    "assignment": "CAF25B",
+    "organizationName": "Lexar Electronics(Shenzhen) Co.,Ltd.",
+    "organizationAddress": "Room EF, 5F, Building 1, Financial Base, No.8 Kefa Road, High-Tech Park, Shenzhen, China Shenzhen Guangdong CN 518000"
+  },
+  {
+    "registry": "CID",
+    "assignment": "8AFB16",
+    "organizationName": "TeraByte, Inc.",
+    "organizationAddress": "10220 Lazy Bear St Las Vegas NV US 89131"
+  },
+  {
+    "registry": "CID",
+    "assignment": "BA4159",
+    "organizationName": "ANAPASS INC.",
+    "organizationAddress": "61 Digital-ro 31-gil Guro-gu Seoul  KR 08375"
+  },
+  {
+    "registry": "CID",
+    "assignment": "6A1F6C",
+    "organizationName": "iPass, Inc.",
+    "organizationAddress": "3800 Bridge Parkway Redwood Shores CA US 94065"
+  },
+  {
+    "registry": "CID",
+    "assignment": "3ACFC5",
+    "organizationName": "Quickline AG",
+    "organizationAddress": "Dr. Schneider-Strasse 16 Nidau  CH 2560"
+  },
+  {
+    "registry": "CID",
+    "assignment": "EADD88",
+    "organizationName": "IEEE PES-PSRC Working Group H3, PC37.237",
+    "organizationAddress": "445 Hoes Ln. Piscataway NJ US 08854"
+  },
+  {
+    "registry": "CID",
+    "assignment": "4A07D6",
+    "organizationName": "IEEE 802.1 Chair",
+    "organizationAddress": " c/o RAC Administrator , IEEE Piscataway NJ US 08554"
+  },
+  {
+    "registry": "CID",
+    "assignment": "2AEA15",
+    "organizationName": "Tibit Communications",
+    "organizationAddress": "1 Willowbrook Court, Suite 150 Petaluma CA US 94954"
+  },
+  {
+    "registry": "CID",
+    "assignment": "7AFD44",
+    "organizationName": "Rosenberger Hochfrequenztechnik GmbH & Co. KG",
+    "organizationAddress": "Hauptstrasse 1 Fridolfing  DE 83413"
+  },
+  {
+    "registry": "CID",
+    "assignment": "5AE660",
+    "organizationName": "nyantec GmbH",
+    "organizationAddress": "Europaplatz 2 Berlin  DE 10557"
+  },
+  {
+    "registry": "CID",
+    "assignment": "DA1C21",
+    "organizationName": "Sesam GmbH",
+    "organizationAddress": "Finsterbachstrasse 1 Merching  DE 86504"
+  },
+  {
+    "registry": "CID",
+    "assignment": "8ADA26",
+    "organizationName": "Eleven Inc.",
+    "organizationAddress": "315 SW 11th Ave, 3rd Floor Portland OR US 97205"
+  },
+  {
+    "registry": "CID",
+    "assignment": "4A7206",
+    "organizationName": "CAIRE, Inc.",
+    "organizationAddress": "2200 Airport Industrial Dr., Suite 500 Ball Ground GA US 30107"
+  },
+  {
+    "registry": "CID",
+    "assignment": "9AADCA",
+    "organizationName": "Credo",
+    "organizationAddress": "1900 McCarthy Blvd, Suite 420 Milpitas CA US 95035"
+  },
+  {
+    "registry": "CID",
+    "assignment": "3A5E03",
+    "organizationName": "Cirrus Data Solutions, Inc",
+    "organizationAddress": "6800 Jericho Turnpike, suite 213W Syosset  NY US 11791"
+  },
+  {
+    "registry": "CID",
+    "assignment": "9AB2F8",
+    "organizationName": "SFF Committee",
+    "organizationAddress": "14426 Black Walnut Court Saratoga CA US 95070"
+  },
+  {
+    "registry": "CID",
+    "assignment": "FAF9C0",
+    "organizationName": "RAID Incorporated",
+    "organizationAddress": "200 Brickstone Square Andover MA US 01810"
+  },
+  {
+    "registry": "CID",
+    "assignment": "FAE190",
+    "organizationName": "IN WIN DEVELOPMENT INC.",
+    "organizationAddress": "NO.57,LANE 350, NANSHANG ROAD, GUEISHAN HSIANG, TAOYUAN HSIEN, TW 333"
+  },
+  {
+    "registry": "CID",
+    "assignment": "4ADA10",
+    "organizationName": "Emotiva Audio Corp",
+    "organizationAddress": "135 SE Parkway Court Franklin TN US 37064"
+  },
+  {
+    "registry": "CID",
+    "assignment": "7AAB77",
+    "organizationName": "Orange",
+    "organizationAddress": "4 rue du Clos Courtel Cesson Sevigne France FR 35512"
+  },
+  {
+    "registry": "CID",
+    "assignment": "FA073E",
+    "organizationName": "NBASE-T Alliance",
+    "organizationAddress": "3855 SW 153rd Drive Beaverton OR US 97003"
+  },
+  {
+    "registry": "CID",
+    "assignment": "CA446C",
+    "organizationName": "Cypress Computer Systems, Inc.",
+    "organizationAddress": "1778 Imlay City Rd Lapeer MI US 48446"
+  },
+  {
+    "registry": "CID",
+    "assignment": "FA4C77",
+    "organizationName": "OCCITALINE",
+    "organizationAddress": "Allée du Quercy COLOMIERS  FR 31770"
+  },
+  {
+    "registry": "CID",
+    "assignment": "2AA147",
+    "organizationName": "DISTRIBUCIONES CANTILEVER",
+    "organizationAddress": "calle Buenavista #35, Colonia Lindavista Norte, Delegación Gustavo A. Madero Cuidad de México CDMX MX 07300"
+  },
+  {
+    "registry": "CID",
+    "assignment": "CA222B",
+    "organizationName": "Beijing Puma Gear Power Equipment Co.,Ltd",
+    "organizationAddress": "Rm. 10C06, Changyin Mansion,No. 88 Yongding Road,  Haidian District Beijing Beijing CN 100037"
+  },
+  {
+    "registry": "CID",
+    "assignment": "FAEEB6",
+    "organizationName": "Shenzhen Jiahua Zhongli Technology Co., LTD",
+    "organizationAddress": "Rm1807, Building 11, Tian'An Cloud Park, Phase 2, Bantian subdistrict, Longgang district, Shenzhen shenzhen guangdong CN 518172"
+  },
+  {
+    "registry": "CID",
+    "assignment": "5A6BB4",
+    "organizationName": "Xconn Technologies",
+    "organizationAddress": "1245 S. Winchester Blvd, Suite 208 San Jose CA US 95128"
+  },
+  {
+    "registry": "CID",
+    "assignment": "CA443E",
+    "organizationName": "Allianz Technology SE",
+    "organizationAddress": "Dieselstr. 8 Unterföhring  DE 85774"
+  },
+  {
+    "registry": "CID",
+    "assignment": "0A2A33",
+    "organizationName": "DIGISTOR",
+    "organizationAddress": "1000 SE Tech Center Dr  Suite 160 Vancouver WA US 98683"
+  },
+  {
+    "registry": "CID",
+    "assignment": "8A7DB3",
+    "organizationName": "Evolv Technology, Inc.",
+    "organizationAddress": "500 Totten Pond Road 4th Floor Waltham MA US 02451"
+  },
+  {
+    "registry": "CID",
+    "assignment": "DA19B3",
+    "organizationName": "LG Uplus",
+    "organizationAddress": "80-17 Gwhak-ro, Yuseong-gu Daejeon  KR 34132"
+  },
+  {
+    "registry": "CID",
+    "assignment": "0AA23B",
+    "organizationName": "Vitex LLC",
+    "organizationAddress": "210 Sylvan Ave, Suite 25 Englewood Cliffs NJ US 07632"
+  },
+  {
+    "registry": "CID",
+    "assignment": "2AAC53",
+    "organizationName": "Wolfspyre Labs",
+    "organizationAddress": "5007 Highland Ct #WPL-IEEE Austin TX US 78731"
+  },
+  {
+    "registry": "CID",
+    "assignment": "CA1E45",
+    "organizationName": "ASMedia Technology Inc.",
+    "organizationAddress": "6F, No.115, Minquan Rd., New Taipei City  TW 23141"
+  },
+  {
+    "registry": "CID",
+    "assignment": "8A0AF7",
+    "organizationName": "Montage Technology Co,.LTD",
+    "organizationAddress": "6/F, BlockA, Technology Building,900 Yishan Road, Shanghai  CN 200233"
+  },
+  {
+    "registry": "CID",
+    "assignment": "7A4D2F",
+    "organizationName": "Open Compute Project",
+    "organizationAddress": "13785 Research Blvd, Suite 125 Austin TX US 78750"
+  },
+  {
+    "registry": "CID",
+    "assignment": "BA07DA",
+    "organizationName": "Infinix mobility limited",
+    "organizationAddress": "RMS 05-15, 13A/F SOUTH TOWER WORLD FINANCE CTR HARBOUR CITY 17 CANTON RD TST KLN HONG KONG HongKong HongKong HK 999077"
+  },
+  {
+    "registry": "CID",
+    "assignment": "6AE732",
+    "organizationName": "UNIS-WDC Storage Co.,Ltd",
+    "organizationAddress": "1202 Block B, Truth Plaza, No.7 ZhiChun Road, HaiDian District Beijing Beijing CN 100191"
+  },
+  {
+    "registry": "CID",
+    "assignment": "AA34D4",
+    "organizationName": "CDVI Wireless SpA",
+    "organizationAddress": "via Piave 23 San Pietro di Feletto Treviso IT 31020"
+  },
+  {
+    "registry": "CID",
+    "assignment": "CA3782",
+    "organizationName": "Storbyte, Inc.",
+    "organizationAddress": "1800 Washington Blvd Suite 412 Baltimore MD US 21230"
+  },
+  {
+    "registry": "CID",
+    "assignment": "CA2B5E",
+    "organizationName": "Suzhou Motor-comm Electronic Technology Co.,Ltd",
+    "organizationAddress": "Rm201, Bldg#4, No.78 Keling Road, Hi-Tech New District, China Suzhou Jiangsu CN 215163"
+  },
+  {
+    "registry": "CID",
+    "assignment": "FA6673",
+    "organizationName": "NELLS ELECTRONIC SYSTEMS (NES)",
+    "organizationAddress": "THAPASYA, KALAPARAMBATH (H), MATHILAKAM P.O THRISSUR KERALA IN 680685"
+  },
+  {
+    "registry": "CID",
+    "assignment": "0ACD8F",
+    "organizationName": "Cisco Systems Norway",
+    "organizationAddress": "Phillip Pedersensvei 1 Lysaker  NO 1366"
+  },
+  {
+    "registry": "CID",
+    "assignment": "4ACA3E",
+    "organizationName": "ZEUS",
+    "organizationAddress": "161-6, Gyeonggi-dong-ro OSAN Gyeonggi KR 18148"
+  },
+  {
+    "registry": "CID",
+    "assignment": "DA4162",
+    "organizationName": "Xperi Corporation",
+    "organizationAddress": "5220 Las Virgenes Rd Calabasas  US 91302"
+  },
+  {
+    "registry": "CID",
+    "assignment": "4A7F74",
+    "organizationName": "INTEC Inc.",
+    "organizationAddress": "1-1-25 Shin-urashima-cho, Kanagawa-ku Yokohama-shi Kanagawa-ken JP 221-0031"
+  },
+  {
+    "registry": "CID",
+    "assignment": "8AA5C1",
+    "organizationName": "Ranovus USA",
+    "organizationAddress": "465 Fairchild Dr #109 Mountain View CA US 94043"
+  },
+  {
+    "registry": "CID",
+    "assignment": "CA8FA5",
+    "organizationName": "Advanced TS Migrations, Co",
+    "organizationAddress": "PO BOX 478 ELLENTON FL US 34222"
+  },
+  {
+    "registry": "CID",
+    "assignment": "AA548B",
+    "organizationName": "Tintri",
+    "organizationAddress": "303 Ravendale Dr Mountain View CA US 94070"
+  },
+  {
+    "registry": "CID",
+    "assignment": "8AB3DA",
+    "organizationName": "HomePlug Powerline Alliance, Inc.",
+    "organizationAddress": "10260 SW Greenburg Road, Suite 400 Portland OR US 97223"
+  },
+  {
+    "registry": "CID",
+    "assignment": "DA2BDD",
+    "organizationName": "AT&T, Inc.",
+    "organizationAddress": "4509 Friedrich Lane, Bldg 3 Austin  US 78744"
+  },
+  {
+    "registry": "CID",
+    "assignment": "8AC72E",
+    "organizationName": "Roku, Inc.",
+    "organizationAddress": "12980 Saratoga Ave Saratoga CA US 95070"
+  },
+  {
+    "registry": "CID",
+    "assignment": "CAC87E",
+    "organizationName": "Allen Organ Company",
+    "organizationAddress": "150 LOCUST ST MACUNGIE PA US 18062"
+  },
+  {
+    "registry": "CID",
+    "assignment": "EA9FB1",
+    "organizationName": "Philips International B.V.",
+    "organizationAddress": "High Tech Campus 5 Eindhoven Noord Brabant NL 5656 AE"
+  },
+  {
+    "registry": "CID",
+    "assignment": "6A737D",
+    "organizationName": "25G Ethernet Consortium",
+    "organizationAddress": "3855 SW 153rd Dr Beaverton OR US 97003"
+  },
+  {
+    "registry": "CID",
+    "assignment": "6AE64A",
+    "organizationName": "S&O Electronics (Malaysia) Sdn. Bhd.",
+    "organizationAddress": "Lot 202 Sungai Petani Kedah MY 08000"
+  },
+  {
+    "registry": "CID",
+    "assignment": "1A9021",
+    "organizationName": "Physical Security Interoperability Alliance",
+    "organizationAddress": "65 Washington St.  Suite 170 Santa Clara CA US 95050"
+  },
+  {
+    "registry": "CID",
+    "assignment": "4AE568",
+    "organizationName": "leapio",
+    "organizationAddress": "beijing,haidian beijing beijing CN 100000"
+  },
+  {
+    "registry": "CID",
+    "assignment": "5AED67",
+    "organizationName": "GoldiLink Technology Corp.",
+    "organizationAddress": "Address: 6F.-2, No. 38, Beida Rd., Hsinchu City 300024 , Taiwan  Hsinchu City   TW 300024"
+  },
+  {
+    "registry": "CID",
+    "assignment": "5A55AD",
+    "organizationName": "Disruptive Cities SAPI DE CV",
+    "organizationAddress": "Insurgentes Sur 64 CDMX CDMX MX 06600"
+  },
+  {
+    "registry": "CID",
+    "assignment": "AA78A3",
+    "organizationName": "Dongguan Yiertek Co., Ltd",
+    "organizationAddress": "Room 901, Building 4, Xinlikang Industrial Park, Huangchong Dongguan China CN 523000"
+  },
+  {
+    "registry": "CID",
+    "assignment": "EABEA7",
+    "organizationName": "Sonos, Inc.",
+    "organizationAddress": "301 Coromar Dr Goleta CA US 93117"
+  },
+  {
+    "registry": "CID",
+    "assignment": "4A5909",
+    "organizationName": "MIWA LOCK CO.,LTD.",
+    "organizationAddress": "1028-1,Yamagami Tamaki-tyou Mie JP 519-0436"
+  }
+] as MACPrefixEntry[]

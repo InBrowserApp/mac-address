@@ -12,8 +12,9 @@
     "strict": true,
     "sourceMap": true,
     "types": ["node"],
-    "skipLibCheck": true
+    "skipLibCheck": true,
+    "resolveJsonModule": true
   },
-  "include": ["src/**/*"],
+  "include": ["src/**/*", "data/**/*"],
   "exclude": ["node_modules", "lib", "**/*.test.ts"]
 }
