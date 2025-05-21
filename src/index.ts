@@ -1,1 +1,1 @@
-export { normalize } from "./utils";
+export * from "./utils";
