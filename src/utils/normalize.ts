@@ -19,7 +19,7 @@ export function normalize(
     case?: "upper" | "lower" | "keep";
     separator?: string;
   },
-) {
+): string {
   const normalizeCase = options?.case ?? "upper";
   const separator = options?.separator;
 
@@ -37,5 +37,5 @@ export function normalize(
     return text;
   }
 
-  return text.match(/.{1,2}/g)?.join(separator);
+  return text.match(/.{1,2}/g)!.join(separator);
 }
