@@ -27,6 +27,15 @@ describe("toNumber", () => {
 
     const result64 = toNumber(example, 64);
     expect(result64).toBe("14YCqHL");
+
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    expect(() => toNumber(example, 65 as any)).toThrow("Unsupported base: 65");
+  });
+
+  it("should handle leading zeros", () => {
+    const example = "00:00:00:00:00:00";
+    const result = toNumber(example, 64);
+    expect(result).toBe("0");
   });
 });
 

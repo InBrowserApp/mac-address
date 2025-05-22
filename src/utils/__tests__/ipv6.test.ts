@@ -24,4 +24,15 @@ describe("toIPv6LinkLocal", () => {
     const expected = "fe80::a8bb:ccff:fedd:eeff";
     expect(toIPv6LinkLocal(mac)).toBe(expected);
   });
+
+  it("should handle invalid MAC addresses", () => {
+    const mac = "00:11:22:33:44:55:66";
+    expect(() => toIPv6LinkLocal(mac)).toThrow();
+  });
+
+  it("should handle MAC addresses with leading zeros", () => {
+    const mac = "00:00:00:00:00:00";
+    const expected = "fe80::200:ff:fe00:0";
+    expect(toIPv6LinkLocal(mac)).toBe(expected);
+  });
 });

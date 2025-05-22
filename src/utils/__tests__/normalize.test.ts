@@ -14,6 +14,15 @@ describe("normalize", () => {
     expect(normalize("aa:bb:cc:dd:ee:ff")).toBe("AABBCCDDEEFF");
   });
 
+  it("should convert to lowercase", () => {
+    expect(normalize("00:11:22:33:44:55", { case: "lower" })).toBe(
+      "001122334455",
+    );
+    expect(normalize("AA:BB:CC:DD:EE:FF", { case: "lower" })).toBe(
+      "aabbccddeeff",
+    );
+  });
+
   it("should handle mixed case input", () => {
     expect(normalize("Aa:Bb:Cc:Dd:Ee:Ff")).toBe("AABBCCDDEEFF");
   });
