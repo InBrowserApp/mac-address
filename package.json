@@ -1,6 +1,6 @@
 {
   "name": "@inbrowserapp/mac-address",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "private": false,
   "description": "MAC address utilities: conversion between bases, normalization, BigInt conversion, IPv6 link-local generation, validation, and registry lookup.",
