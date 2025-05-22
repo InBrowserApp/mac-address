@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.1](https://github.com/InBrowserApp/mac-address/compare/v1.0.0...v1.0.1) (2025-05-22)
+
+
+### Bug Fixes
+
+* **docs:** add repository url in package.json to publish with provence ([37444a7](https://github.com/InBrowserApp/mac-address/commit/37444a7501ce1a132690888593a852fb48340e9a))
+
 ## 1.0.0 (2025-05-22)
 
 
