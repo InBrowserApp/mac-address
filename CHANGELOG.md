@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.2](https://github.com/InBrowserApp/mac-address/compare/v1.0.1...v1.0.2) (2025-05-22)
+
+
+### Bug Fixes
+
+* add prepublishOnly script in package.json ([e5405c5](https://github.com/InBrowserApp/mac-address/commit/e5405c546f3ff81c62f0d527fe7a4c9bf4d6b934))
+
 ## [1.0.1](https://github.com/InBrowserApp/mac-address/compare/v1.0.0...v1.0.1) (2025-05-22)
 
 
