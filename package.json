@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "type": "module",
   "private": false,
-  "description": "MAC Address Utility",
-  "main": "index.js",
+  "description": "MAC address utilities: conversion between bases, normalization, BigInt conversion, IPv6 link-local generation, validation, and registry lookup.",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "scripts": {
     "build": "tsc",
     "lint": "eslint --fix src",
@@ -17,7 +18,8 @@
   },
   "keywords": [
     "mac-address",
-    "mac"
+    "mac",
+    "utils"
   ],
   "files": [
     "lib",
@@ -25,6 +27,11 @@
   ],
   "author": "InBrowserApp",
   "license": "MIT",
+  "repository": "https://github.com/InBrowserApp/mac-address",
+  "homepage": "https://github.com/InBrowserApp/mac-address",
+  "bugs": {
+    "url": "https://github.com/InBrowserApp/mac-address/issues"
+  },
   "packageManager": "pnpm@10.11.0+sha512.6540583f41cc5f628eb3d9773ecee802f4f9ef9923cc45b69890fb47991d4b092964694ec3a4f738a420c918a333062c8b925d312f42e4f0c263eb603551f977",
   "devDependencies": {
     "@commitlint/cli": "^19.8.1",
