@@ -1,7 +1,10 @@
 import csv from "csvtojson";
 import path from "path";
 import fs from "fs/promises";
-import type { MACPrefixEntry } from "../src/data/mac-registry/types";
+import type {
+  MACPrefixEntry,
+  MACRegistry,
+} from "../src/data/mac-registry/types";
 
 const folder = "src/data/mac-registry";
 
@@ -35,6 +38,8 @@ interface MACPrefixEntryRaw {
   "Organization Address": string;
 }
 
+const entries: MACPrefixEntry[] = [];
+
 for (const info of infos) {
   console.log(`Downloading ${info.name} from ${info.url}`);
   const response = await fetch(info.url);
@@ -44,15 +49,16 @@ for (const info of infos) {
   console.log(`Saved ${info.name}.csv`);
 
   // write to folder/{name}.json
-  const csvJsonData = await csv().fromString(csvText);
-  const data = csvJsonData.map(
-    (entry: MACPrefixEntryRaw): MACPrefixEntry => ({
-      registry: entry.Registry,
-      assignment: entry.Assignment,
-      organizationName: entry["Organization Name"],
-      organizationAddress: entry["Organization Address"],
-    }),
-  );
+  const csvJsonData: MACPrefixEntryRaw[] = await csv().fromString(csvText);
+  const data: MACPrefixEntry[] = csvJsonData.map((entry) => ({
+    registry: entry.Registry as MACRegistry,
+    assignment: entry.Assignment,
+    organizationName: entry["Organization Name"],
+    organizationAddress: entry["Organization Address"],
+  }));
+
+  // sort by assignment
+  data.sort((a, b) => a.assignment.localeCompare(b.assignment));
 
   await fs.writeFile(
     path.join(folder, `${info.name}.json`),
@@ -60,8 +66,14 @@ for (const info of infos) {
   );
   console.log(`Saved ${info.name}.json`);
 
-  // write to folder/{name}.ts
-  const tsCode = `import type { MACPrefixEntry } from "./types";\n\nexport default ${JSON.stringify(data, null, 2)} as MACPrefixEntry[]`;
-  await fs.writeFile(path.join(folder, `${info.name}.ts`), tsCode);
-  console.log(`Saved ${info.name}.ts`);
+  // add data to entries
+  entries.push(...data);
 }
+
+// sort entries by assignment
+entries.sort((a, b) => a.assignment.localeCompare(b.assignment));
+
+await fs.writeFile(
+  path.join(folder, "data.json"),
+  JSON.stringify(entries, null, 2),
+);

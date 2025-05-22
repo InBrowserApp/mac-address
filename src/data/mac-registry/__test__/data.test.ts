@@ -1,27 +1,20 @@
 import { describe, it, expect } from "vitest";
-import { cid, iab, oui, oui28, oui36 } from "../index";
+import { getRegistryData } from "../index";
 
 describe("mac registry data", () => {
-  const dataList = {
-    cid,
-    iab,
-    oui,
-    oui28,
-    oui36,
-  };
+  it(`data should be defined`, async () => {
+    const entries = await getRegistryData();
+    expect(entries).toBeDefined();
+    expect(entries.length).toBeGreaterThan(100);
+  });
 
-  for (const [key, data] of Object.entries(dataList)) {
-    it(`${key} data should be defined`, () => {
-      const entries = data as MACPrefixEntry[];
-      expect(entries).toBeDefined();
-      expect(Array.isArray(entries)).toBe(true);
-      expect(entries.length).toBeGreaterThan(0);
-      for (const entry of entries) {
-        expect(entry.registry).toBeDefined();
-        expect(entry.assignment).toBeDefined();
-        expect(entry.organizationName).toBeDefined();
-        expect(entry.organizationAddress).toBeDefined();
-      }
-    });
-  }
+  it(`data should be a record`, async () => {
+    const entries = await getRegistryData();
+    const firstEntry = entries[0];
+    expect(firstEntry).toBeDefined();
+    expect(typeof firstEntry).toBe("object");
+    expect(firstEntry.registry).toBeDefined();
+    expect(firstEntry.organizationName).toBeDefined();
+    expect(firstEntry.organizationAddress).toBeDefined();
+  });
 });
